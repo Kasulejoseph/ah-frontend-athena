@@ -1,0 +1,2023 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing login form Login form should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginView
+    errors=""
+    facebookLoginHandler={[MockFunction]}
+    googleLoginHandler={[MockFunction]}
+    onChange={[MockFunction]}
+    onSubmit={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <t
+        className="flex flex-center m-0"
+        tag="div"
+      >
+        <t
+          className="m-0 p-0"
+          lg={null}
+          md={null}
+          sm={null}
+          tag="div"
+          xl={null}
+          xs={null}
+        >
+          <form
+            onSubmit={[MockFunction]}
+          >
+            <t
+              tag="div"
+            >
+              <div
+                className="header pt-3 bg-primary"
+              >
+                <t
+                  className="d-flex justify-content-center"
+                  tag="div"
+                >
+                  <h3
+                    className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                  >
+                    Login
+                  </h3>
+                </t>
+              </div>
+              <t
+                className="mx-4 mt-4 grey-text"
+                tag="div"
+              >
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error="wrong"
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="envelope"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  id="email"
+                  label="Type your email"
+                  labelClass=""
+                  name="email"
+                  onChange={[MockFunction]}
+                  size=""
+                  success="right"
+                  tag="input"
+                  type="email"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error=""
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="lock"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  label="Type your password"
+                  labelClass=""
+                  name="password"
+                  onChange={[MockFunction]}
+                  size=""
+                  success=""
+                  tag="input"
+                  type="password"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <div
+                  className="text-center"
+                >
+                  <t
+                    className="btn-block z-depth-2 bg-primary"
+                    color="bg-primary"
+                    tag="button"
+                    type="submit"
+                  >
+                    Login
+                  </t>
+                  <p
+                    className="font-small blue-text d-flex justify-content-end pb-3"
+                  >
+                    <a
+                      className="blue-text ml-1"
+                      href="/passwordreset"
+                    >
+                      Forgot Password?
+                    </a>
+                  </p>
+                  <div
+                    className="row my-3 d-flex justify-content-center"
+                  >
+                    <withRouter(Connect(SocialLoginView)) />
+                  </div>
+                </div>
+              </t>
+            </t>
+          </form>
+        </t>
+      </t>,
+      "className": "",
+      "fluid": true,
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <t
+          className="m-0 p-0"
+          lg={null}
+          md={null}
+          sm={null}
+          tag="div"
+          xl={null}
+          xs={null}
+        >
+          <form
+            onSubmit={[MockFunction]}
+          >
+            <t
+              tag="div"
+            >
+              <div
+                className="header pt-3 bg-primary"
+              >
+                <t
+                  className="d-flex justify-content-center"
+                  tag="div"
+                >
+                  <h3
+                    className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                  >
+                    Login
+                  </h3>
+                </t>
+              </div>
+              <t
+                className="mx-4 mt-4 grey-text"
+                tag="div"
+              >
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error="wrong"
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="envelope"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  id="email"
+                  label="Type your email"
+                  labelClass=""
+                  name="email"
+                  onChange={[MockFunction]}
+                  size=""
+                  success="right"
+                  tag="input"
+                  type="email"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error=""
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="lock"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  label="Type your password"
+                  labelClass=""
+                  name="password"
+                  onChange={[MockFunction]}
+                  size=""
+                  success=""
+                  tag="input"
+                  type="password"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <div
+                  className="text-center"
+                >
+                  <t
+                    className="btn-block z-depth-2 bg-primary"
+                    color="bg-primary"
+                    tag="button"
+                    type="submit"
+                  >
+                    Login
+                  </t>
+                  <p
+                    className="font-small blue-text d-flex justify-content-end pb-3"
+                  >
+                    <a
+                      className="blue-text ml-1"
+                      href="/passwordreset"
+                    >
+                      Forgot Password?
+                    </a>
+                  </p>
+                  <div
+                    className="row my-3 d-flex justify-content-center"
+                  >
+                    <withRouter(Connect(SocialLoginView)) />
+                  </div>
+                </div>
+              </t>
+            </t>
+          </form>
+        </t>,
+        "className": "flex flex-center m-0",
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <form
+            onSubmit={[MockFunction]}
+          >
+            <t
+              tag="div"
+            >
+              <div
+                className="header pt-3 bg-primary"
+              >
+                <t
+                  className="d-flex justify-content-center"
+                  tag="div"
+                >
+                  <h3
+                    className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                  >
+                    Login
+                  </h3>
+                </t>
+              </div>
+              <t
+                className="mx-4 mt-4 grey-text"
+                tag="div"
+              >
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error="wrong"
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="envelope"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  id="email"
+                  label="Type your email"
+                  labelClass=""
+                  name="email"
+                  onChange={[MockFunction]}
+                  size=""
+                  success="right"
+                  tag="input"
+                  type="email"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error=""
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="lock"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  label="Type your password"
+                  labelClass=""
+                  name="password"
+                  onChange={[MockFunction]}
+                  size=""
+                  success=""
+                  tag="input"
+                  type="password"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <div
+                  className="text-center"
+                >
+                  <t
+                    className="btn-block z-depth-2 bg-primary"
+                    color="bg-primary"
+                    tag="button"
+                    type="submit"
+                  >
+                    Login
+                  </t>
+                  <p
+                    className="font-small blue-text d-flex justify-content-end pb-3"
+                  >
+                    <a
+                      className="blue-text ml-1"
+                      href="/passwordreset"
+                    >
+                      Forgot Password?
+                    </a>
+                  </p>
+                  <div
+                    className="row my-3 d-flex justify-content-center"
+                  >
+                    <withRouter(Connect(SocialLoginView)) />
+                  </div>
+                </div>
+              </t>
+            </t>
+          </form>,
+          "className": "m-0 p-0",
+          "lg": null,
+          "md": null,
+          "sm": null,
+          "tag": "div",
+          "xl": null,
+          "xs": null,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <t
+              tag="div"
+            >
+              <div
+                className="header pt-3 bg-primary"
+              >
+                <t
+                  className="d-flex justify-content-center"
+                  tag="div"
+                >
+                  <h3
+                    className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                  >
+                    Login
+                  </h3>
+                </t>
+              </div>
+              <t
+                className="mx-4 mt-4 grey-text"
+                tag="div"
+              >
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error="wrong"
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="envelope"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  id="email"
+                  label="Type your email"
+                  labelClass=""
+                  name="email"
+                  onChange={[MockFunction]}
+                  size=""
+                  success="right"
+                  tag="input"
+                  type="email"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <t
+                  className="form-control form-control-lg"
+                  containerClass="mb-0"
+                  disabled={false}
+                  error=""
+                  filled={false}
+                  gap={false}
+                  group={true}
+                  icon="lock"
+                  iconBrand={false}
+                  iconClass=""
+                  iconLight={false}
+                  iconRegular={false}
+                  label="Type your password"
+                  labelClass=""
+                  name="password"
+                  onChange={[MockFunction]}
+                  size=""
+                  success=""
+                  tag="input"
+                  type="password"
+                  validate={true}
+                  valueDefault=""
+                />
+                <p
+                  className=" red-text is-valid"
+                />
+                <div
+                  className="text-center"
+                >
+                  <t
+                    className="btn-block z-depth-2 bg-primary"
+                    color="bg-primary"
+                    tag="button"
+                    type="submit"
+                  >
+                    Login
+                  </t>
+                  <p
+                    className="font-small blue-text d-flex justify-content-end pb-3"
+                  >
+                    <a
+                      className="blue-text ml-1"
+                      href="/passwordreset"
+                    >
+                      Forgot Password?
+                    </a>
+                  </p>
+                  <div
+                    className="row my-3 d-flex justify-content-center"
+                  >
+                    <withRouter(Connect(SocialLoginView)) />
+                  </div>
+                </div>
+              </t>
+            </t>,
+            "onSubmit": [MockFunction],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="header pt-3 bg-primary"
+                >
+                  <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>
+                </div>,
+                <t
+                  className="mx-4 mt-4 grey-text"
+                  tag="div"
+                >
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error="wrong"
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="envelope"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    id="email"
+                    label="Type your email"
+                    labelClass=""
+                    name="email"
+                    onChange={[MockFunction]}
+                    size=""
+                    success="right"
+                    tag="input"
+                    type="email"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error=""
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="lock"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    label="Type your password"
+                    labelClass=""
+                    name="password"
+                    onChange={[MockFunction]}
+                    size=""
+                    success=""
+                    tag="input"
+                    type="password"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <div
+                    className="text-center"
+                  >
+                    <t
+                      className="btn-block z-depth-2 bg-primary"
+                      color="bg-primary"
+                      tag="button"
+                      type="submit"
+                    >
+                      Login
+                    </t>
+                    <p
+                      className="font-small blue-text d-flex justify-content-end pb-3"
+                    >
+                      <a
+                        className="blue-text ml-1"
+                        href="/passwordreset"
+                      >
+                        Forgot Password?
+                      </a>
+                    </p>
+                    <div
+                      className="row my-3 d-flex justify-content-center"
+                    >
+                      <withRouter(Connect(SocialLoginView)) />
+                    </div>
+                  </div>
+                </t>,
+              ],
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>,
+                  "className": "header pt-3 bg-primary",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>,
+                    "className": "d-flex justify-content-center",
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Login",
+                      "className": "font-weight-bold white-text mt-3 mb-4 pb-1 mx-5",
+                    },
+                    "ref": null,
+                    "rendered": "Login",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className=" red-text is-valid"
+                    />,
+                    <t
+                      className="form-control form-control-lg"
+                      containerClass="mb-0"
+                      disabled={false}
+                      error="wrong"
+                      filled={false}
+                      gap={false}
+                      group={true}
+                      icon="envelope"
+                      iconBrand={false}
+                      iconClass=""
+                      iconLight={false}
+                      iconRegular={false}
+                      id="email"
+                      label="Type your email"
+                      labelClass=""
+                      name="email"
+                      onChange={[MockFunction]}
+                      size=""
+                      success="right"
+                      tag="input"
+                      type="email"
+                      validate={true}
+                      valueDefault=""
+                    />,
+                    <p
+                      className=" red-text is-valid"
+                    />,
+                    <t
+                      className="form-control form-control-lg"
+                      containerClass="mb-0"
+                      disabled={false}
+                      error=""
+                      filled={false}
+                      gap={false}
+                      group={true}
+                      icon="lock"
+                      iconBrand={false}
+                      iconClass=""
+                      iconLight={false}
+                      iconRegular={false}
+                      label="Type your password"
+                      labelClass=""
+                      name="password"
+                      onChange={[MockFunction]}
+                      size=""
+                      success=""
+                      tag="input"
+                      type="password"
+                      validate={true}
+                      valueDefault=""
+                    />,
+                    <p
+                      className=" red-text is-valid"
+                    />,
+                    <div
+                      className="text-center"
+                    >
+                      <t
+                        className="btn-block z-depth-2 bg-primary"
+                        color="bg-primary"
+                        tag="button"
+                        type="submit"
+                      >
+                        Login
+                      </t>
+                      <p
+                        className="font-small blue-text d-flex justify-content-end pb-3"
+                      >
+                        <a
+                          className="blue-text ml-1"
+                          href="/passwordreset"
+                        >
+                          Forgot Password?
+                        </a>
+                      </p>
+                      <div
+                        className="row my-3 d-flex justify-content-center"
+                      >
+                        <withRouter(Connect(SocialLoginView)) />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "mx-4 mt-4 grey-text",
+                  "tag": "div",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": " red-text is-valid",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": "form-control form-control-lg",
+                      "containerClass": "mb-0",
+                      "disabled": false,
+                      "error": "wrong",
+                      "filled": false,
+                      "gap": false,
+                      "group": true,
+                      "hint": undefined,
+                      "icon": "envelope",
+                      "iconBrand": false,
+                      "iconClass": "",
+                      "iconLight": false,
+                      "iconRegular": false,
+                      "iconSize": undefined,
+                      "id": "email",
+                      "label": "Type your email",
+                      "labelClass": "",
+                      "name": "email",
+                      "onChange": [MockFunction],
+                      "size": "",
+                      "success": "right",
+                      "tag": "input",
+                      "type": "email",
+                      "validate": true,
+                      "valueDefault": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": " red-text is-valid",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": "form-control form-control-lg",
+                      "containerClass": "mb-0",
+                      "disabled": false,
+                      "error": "",
+                      "filled": false,
+                      "gap": false,
+                      "group": true,
+                      "hint": undefined,
+                      "icon": "lock",
+                      "iconBrand": false,
+                      "iconClass": "",
+                      "iconLight": false,
+                      "iconRegular": false,
+                      "iconSize": undefined,
+                      "id": undefined,
+                      "label": "Type your password",
+                      "labelClass": "",
+                      "name": "password",
+                      "onChange": [MockFunction],
+                      "size": "",
+                      "success": "",
+                      "tag": "input",
+                      "type": "password",
+                      "validate": true,
+                      "valueDefault": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": " red-text is-valid",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <t
+                          className="btn-block z-depth-2 bg-primary"
+                          color="bg-primary"
+                          tag="button"
+                          type="submit"
+                        >
+                          Login
+                        </t>,
+                        <p
+                          className="font-small blue-text d-flex justify-content-end pb-3"
+                        >
+                          <a
+                            className="blue-text ml-1"
+                            href="/passwordreset"
+                          >
+                            Forgot Password?
+                          </a>
+                        </p>,
+                        <div
+                          className="row my-3 d-flex justify-content-center"
+                        >
+                          <withRouter(Connect(SocialLoginView)) />
+                        </div>,
+                      ],
+                      "className": "text-center",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "Login",
+                          "className": "btn-block z-depth-2 bg-primary",
+                          "color": "bg-primary",
+                          "tag": "button",
+                          "type": "submit",
+                        },
+                        "ref": null,
+                        "rendered": "Login",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <a
+                            className="blue-text ml-1"
+                            href="/passwordreset"
+                          >
+                            Forgot Password?
+                          </a>,
+                          "className": "font-small blue-text d-flex justify-content-end pb-3",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Forgot Password?",
+                            "className": "blue-text ml-1",
+                            "href": "/passwordreset",
+                          },
+                          "ref": null,
+                          "rendered": "Forgot Password?",
+                          "type": "a",
+                        },
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <withRouter(Connect(SocialLoginView)) />,
+                          "className": "row my-3 d-flex justify-content-center",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "form",
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <t
+          className="flex flex-center m-0"
+          tag="div"
+        >
+          <t
+            className="m-0 p-0"
+            lg={null}
+            md={null}
+            sm={null}
+            tag="div"
+            xl={null}
+            xs={null}
+          >
+            <form
+              onSubmit={[MockFunction]}
+            >
+              <t
+                tag="div"
+              >
+                <div
+                  className="header pt-3 bg-primary"
+                >
+                  <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>
+                </div>
+                <t
+                  className="mx-4 mt-4 grey-text"
+                  tag="div"
+                >
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error="wrong"
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="envelope"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    id="email"
+                    label="Type your email"
+                    labelClass=""
+                    name="email"
+                    onChange={[MockFunction]}
+                    size=""
+                    success="right"
+                    tag="input"
+                    type="email"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error=""
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="lock"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    label="Type your password"
+                    labelClass=""
+                    name="password"
+                    onChange={[MockFunction]}
+                    size=""
+                    success=""
+                    tag="input"
+                    type="password"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <div
+                    className="text-center"
+                  >
+                    <t
+                      className="btn-block z-depth-2 bg-primary"
+                      color="bg-primary"
+                      tag="button"
+                      type="submit"
+                    >
+                      Login
+                    </t>
+                    <p
+                      className="font-small blue-text d-flex justify-content-end pb-3"
+                    >
+                      <a
+                        className="blue-text ml-1"
+                        href="/passwordreset"
+                      >
+                        Forgot Password?
+                      </a>
+                    </p>
+                    <div
+                      className="row my-3 d-flex justify-content-center"
+                    >
+                      <withRouter(Connect(SocialLoginView)) />
+                    </div>
+                  </div>
+                </t>
+              </t>
+            </form>
+          </t>
+        </t>,
+        "className": "",
+        "fluid": true,
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <t
+            className="m-0 p-0"
+            lg={null}
+            md={null}
+            sm={null}
+            tag="div"
+            xl={null}
+            xs={null}
+          >
+            <form
+              onSubmit={[MockFunction]}
+            >
+              <t
+                tag="div"
+              >
+                <div
+                  className="header pt-3 bg-primary"
+                >
+                  <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>
+                </div>
+                <t
+                  className="mx-4 mt-4 grey-text"
+                  tag="div"
+                >
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error="wrong"
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="envelope"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    id="email"
+                    label="Type your email"
+                    labelClass=""
+                    name="email"
+                    onChange={[MockFunction]}
+                    size=""
+                    success="right"
+                    tag="input"
+                    type="email"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error=""
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="lock"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    label="Type your password"
+                    labelClass=""
+                    name="password"
+                    onChange={[MockFunction]}
+                    size=""
+                    success=""
+                    tag="input"
+                    type="password"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <div
+                    className="text-center"
+                  >
+                    <t
+                      className="btn-block z-depth-2 bg-primary"
+                      color="bg-primary"
+                      tag="button"
+                      type="submit"
+                    >
+                      Login
+                    </t>
+                    <p
+                      className="font-small blue-text d-flex justify-content-end pb-3"
+                    >
+                      <a
+                        className="blue-text ml-1"
+                        href="/passwordreset"
+                      >
+                        Forgot Password?
+                      </a>
+                    </p>
+                    <div
+                      className="row my-3 d-flex justify-content-center"
+                    >
+                      <withRouter(Connect(SocialLoginView)) />
+                    </div>
+                  </div>
+                </t>
+              </t>
+            </form>
+          </t>,
+          "className": "flex flex-center m-0",
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <form
+              onSubmit={[MockFunction]}
+            >
+              <t
+                tag="div"
+              >
+                <div
+                  className="header pt-3 bg-primary"
+                >
+                  <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>
+                </div>
+                <t
+                  className="mx-4 mt-4 grey-text"
+                  tag="div"
+                >
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error="wrong"
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="envelope"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    id="email"
+                    label="Type your email"
+                    labelClass=""
+                    name="email"
+                    onChange={[MockFunction]}
+                    size=""
+                    success="right"
+                    tag="input"
+                    type="email"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error=""
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="lock"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    label="Type your password"
+                    labelClass=""
+                    name="password"
+                    onChange={[MockFunction]}
+                    size=""
+                    success=""
+                    tag="input"
+                    type="password"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <div
+                    className="text-center"
+                  >
+                    <t
+                      className="btn-block z-depth-2 bg-primary"
+                      color="bg-primary"
+                      tag="button"
+                      type="submit"
+                    >
+                      Login
+                    </t>
+                    <p
+                      className="font-small blue-text d-flex justify-content-end pb-3"
+                    >
+                      <a
+                        className="blue-text ml-1"
+                        href="/passwordreset"
+                      >
+                        Forgot Password?
+                      </a>
+                    </p>
+                    <div
+                      className="row my-3 d-flex justify-content-center"
+                    >
+                      <withRouter(Connect(SocialLoginView)) />
+                    </div>
+                  </div>
+                </t>
+              </t>
+            </form>,
+            "className": "m-0 p-0",
+            "lg": null,
+            "md": null,
+            "sm": null,
+            "tag": "div",
+            "xl": null,
+            "xs": null,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                tag="div"
+              >
+                <div
+                  className="header pt-3 bg-primary"
+                >
+                  <t
+                    className="d-flex justify-content-center"
+                    tag="div"
+                  >
+                    <h3
+                      className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                    >
+                      Login
+                    </h3>
+                  </t>
+                </div>
+                <t
+                  className="mx-4 mt-4 grey-text"
+                  tag="div"
+                >
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error="wrong"
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="envelope"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    id="email"
+                    label="Type your email"
+                    labelClass=""
+                    name="email"
+                    onChange={[MockFunction]}
+                    size=""
+                    success="right"
+                    tag="input"
+                    type="email"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <t
+                    className="form-control form-control-lg"
+                    containerClass="mb-0"
+                    disabled={false}
+                    error=""
+                    filled={false}
+                    gap={false}
+                    group={true}
+                    icon="lock"
+                    iconBrand={false}
+                    iconClass=""
+                    iconLight={false}
+                    iconRegular={false}
+                    label="Type your password"
+                    labelClass=""
+                    name="password"
+                    onChange={[MockFunction]}
+                    size=""
+                    success=""
+                    tag="input"
+                    type="password"
+                    validate={true}
+                    valueDefault=""
+                  />
+                  <p
+                    className=" red-text is-valid"
+                  />
+                  <div
+                    className="text-center"
+                  >
+                    <t
+                      className="btn-block z-depth-2 bg-primary"
+                      color="bg-primary"
+                      tag="button"
+                      type="submit"
+                    >
+                      Login
+                    </t>
+                    <p
+                      className="font-small blue-text d-flex justify-content-end pb-3"
+                    >
+                      <a
+                        className="blue-text ml-1"
+                        href="/passwordreset"
+                      >
+                        Forgot Password?
+                      </a>
+                    </p>
+                    <div
+                      className="row my-3 d-flex justify-content-center"
+                    >
+                      <withRouter(Connect(SocialLoginView)) />
+                    </div>
+                  </div>
+                </t>
+              </t>,
+              "onSubmit": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="header pt-3 bg-primary"
+                  >
+                    <t
+                      className="d-flex justify-content-center"
+                      tag="div"
+                    >
+                      <h3
+                        className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                      >
+                        Login
+                      </h3>
+                    </t>
+                  </div>,
+                  <t
+                    className="mx-4 mt-4 grey-text"
+                    tag="div"
+                  >
+                    <p
+                      className=" red-text is-valid"
+                    />
+                    <t
+                      className="form-control form-control-lg"
+                      containerClass="mb-0"
+                      disabled={false}
+                      error="wrong"
+                      filled={false}
+                      gap={false}
+                      group={true}
+                      icon="envelope"
+                      iconBrand={false}
+                      iconClass=""
+                      iconLight={false}
+                      iconRegular={false}
+                      id="email"
+                      label="Type your email"
+                      labelClass=""
+                      name="email"
+                      onChange={[MockFunction]}
+                      size=""
+                      success="right"
+                      tag="input"
+                      type="email"
+                      validate={true}
+                      valueDefault=""
+                    />
+                    <p
+                      className=" red-text is-valid"
+                    />
+                    <t
+                      className="form-control form-control-lg"
+                      containerClass="mb-0"
+                      disabled={false}
+                      error=""
+                      filled={false}
+                      gap={false}
+                      group={true}
+                      icon="lock"
+                      iconBrand={false}
+                      iconClass=""
+                      iconLight={false}
+                      iconRegular={false}
+                      label="Type your password"
+                      labelClass=""
+                      name="password"
+                      onChange={[MockFunction]}
+                      size=""
+                      success=""
+                      tag="input"
+                      type="password"
+                      validate={true}
+                      valueDefault=""
+                    />
+                    <p
+                      className=" red-text is-valid"
+                    />
+                    <div
+                      className="text-center"
+                    >
+                      <t
+                        className="btn-block z-depth-2 bg-primary"
+                        color="bg-primary"
+                        tag="button"
+                        type="submit"
+                      >
+                        Login
+                      </t>
+                      <p
+                        className="font-small blue-text d-flex justify-content-end pb-3"
+                      >
+                        <a
+                          className="blue-text ml-1"
+                          href="/passwordreset"
+                        >
+                          Forgot Password?
+                        </a>
+                      </p>
+                      <div
+                        className="row my-3 d-flex justify-content-center"
+                      >
+                        <withRouter(Connect(SocialLoginView)) />
+                      </div>
+                    </div>
+                  </t>,
+                ],
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <t
+                      className="d-flex justify-content-center"
+                      tag="div"
+                    >
+                      <h3
+                        className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                      >
+                        Login
+                      </h3>
+                    </t>,
+                    "className": "header pt-3 bg-primary",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <h3
+                        className="font-weight-bold white-text mt-3 mb-4 pb-1 mx-5"
+                      >
+                        Login
+                      </h3>,
+                      "className": "d-flex justify-content-center",
+                      "tag": "div",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Login",
+                        "className": "font-weight-bold white-text mt-3 mb-4 pb-1 mx-5",
+                      },
+                      "ref": null,
+                      "rendered": "Login",
+                      "type": "h3",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className=" red-text is-valid"
+                      />,
+                      <t
+                        className="form-control form-control-lg"
+                        containerClass="mb-0"
+                        disabled={false}
+                        error="wrong"
+                        filled={false}
+                        gap={false}
+                        group={true}
+                        icon="envelope"
+                        iconBrand={false}
+                        iconClass=""
+                        iconLight={false}
+                        iconRegular={false}
+                        id="email"
+                        label="Type your email"
+                        labelClass=""
+                        name="email"
+                        onChange={[MockFunction]}
+                        size=""
+                        success="right"
+                        tag="input"
+                        type="email"
+                        validate={true}
+                        valueDefault=""
+                      />,
+                      <p
+                        className=" red-text is-valid"
+                      />,
+                      <t
+                        className="form-control form-control-lg"
+                        containerClass="mb-0"
+                        disabled={false}
+                        error=""
+                        filled={false}
+                        gap={false}
+                        group={true}
+                        icon="lock"
+                        iconBrand={false}
+                        iconClass=""
+                        iconLight={false}
+                        iconRegular={false}
+                        label="Type your password"
+                        labelClass=""
+                        name="password"
+                        onChange={[MockFunction]}
+                        size=""
+                        success=""
+                        tag="input"
+                        type="password"
+                        validate={true}
+                        valueDefault=""
+                      />,
+                      <p
+                        className=" red-text is-valid"
+                      />,
+                      <div
+                        className="text-center"
+                      >
+                        <t
+                          className="btn-block z-depth-2 bg-primary"
+                          color="bg-primary"
+                          tag="button"
+                          type="submit"
+                        >
+                          Login
+                        </t>
+                        <p
+                          className="font-small blue-text d-flex justify-content-end pb-3"
+                        >
+                          <a
+                            className="blue-text ml-1"
+                            href="/passwordreset"
+                          >
+                            Forgot Password?
+                          </a>
+                        </p>
+                        <div
+                          className="row my-3 d-flex justify-content-center"
+                        >
+                          <withRouter(Connect(SocialLoginView)) />
+                        </div>
+                      </div>,
+                    ],
+                    "className": "mx-4 mt-4 grey-text",
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": " red-text is-valid",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": "form-control form-control-lg",
+                        "containerClass": "mb-0",
+                        "disabled": false,
+                        "error": "wrong",
+                        "filled": false,
+                        "gap": false,
+                        "group": true,
+                        "hint": undefined,
+                        "icon": "envelope",
+                        "iconBrand": false,
+                        "iconClass": "",
+                        "iconLight": false,
+                        "iconRegular": false,
+                        "iconSize": undefined,
+                        "id": "email",
+                        "label": "Type your email",
+                        "labelClass": "",
+                        "name": "email",
+                        "onChange": [MockFunction],
+                        "size": "",
+                        "success": "right",
+                        "tag": "input",
+                        "type": "email",
+                        "validate": true,
+                        "valueDefault": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": " red-text is-valid",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": "form-control form-control-lg",
+                        "containerClass": "mb-0",
+                        "disabled": false,
+                        "error": "",
+                        "filled": false,
+                        "gap": false,
+                        "group": true,
+                        "hint": undefined,
+                        "icon": "lock",
+                        "iconBrand": false,
+                        "iconClass": "",
+                        "iconLight": false,
+                        "iconRegular": false,
+                        "iconSize": undefined,
+                        "id": undefined,
+                        "label": "Type your password",
+                        "labelClass": "",
+                        "name": "password",
+                        "onChange": [MockFunction],
+                        "size": "",
+                        "success": "",
+                        "tag": "input",
+                        "type": "password",
+                        "validate": true,
+                        "valueDefault": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": " red-text is-valid",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <t
+                            className="btn-block z-depth-2 bg-primary"
+                            color="bg-primary"
+                            tag="button"
+                            type="submit"
+                          >
+                            Login
+                          </t>,
+                          <p
+                            className="font-small blue-text d-flex justify-content-end pb-3"
+                          >
+                            <a
+                              className="blue-text ml-1"
+                              href="/passwordreset"
+                            >
+                              Forgot Password?
+                            </a>
+                          </p>,
+                          <div
+                            className="row my-3 d-flex justify-content-center"
+                          >
+                            <withRouter(Connect(SocialLoginView)) />
+                          </div>,
+                        ],
+                        "className": "text-center",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Login",
+                            "className": "btn-block z-depth-2 bg-primary",
+                            "color": "bg-primary",
+                            "tag": "button",
+                            "type": "submit",
+                          },
+                          "ref": null,
+                          "rendered": "Login",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              className="blue-text ml-1"
+                              href="/passwordreset"
+                            >
+                              Forgot Password?
+                            </a>,
+                            "className": "font-small blue-text d-flex justify-content-end pb-3",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Forgot Password?",
+                              "className": "blue-text ml-1",
+                              "href": "/passwordreset",
+                            },
+                            "ref": null,
+                            "rendered": "Forgot Password?",
+                            "type": "a",
+                          },
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <withRouter(Connect(SocialLoginView)) />,
+                            "className": "row my-3 d-flex justify-content-center",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "form",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,32 @@
+{
+  "name": "ah-frontend-athena",
+  "scripts": {},
+  "env": {
+    "REACT_APP_GOOGLE_SECRET_ID": {
+      "required": true
+    },
+    "REACT_APP_GOOGLE_CLIENT_ID": {
+      "required": true
+    },
+    "REACT_APP_FACEBOOK_APP_ID": {
+      "required": true
+    },
+    "REACT_APP_API_URL_BASE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [{
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack"
+    }
+  ],
+  "stack": "heroku-18"
+}

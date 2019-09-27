@@ -1,0 +1,71 @@
+.form-group{
+  margin-bottom: 25px
+}
+
+.user-img:hover .edit {
+display: block;
+}
+
+.edit {
+padding-top: 28px;
+ padding-right: 145px;
+ position: absolute;
+ right: 0;
+ top: 0;
+ display: none;
+ font-size: 45px;
+}
+
+.cam{
+ color: #1BA1E2;
+ cursor: pointer;
+}
+.inputfile {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.username {
+  position: absolute;
+  font-weight: bolder;
+  font-size: 22px;
+  margin-left: -68px;
+  margin-top: 17px;
+  font-family: Merienda One;
+}
+
+.email {
+  position: absolute;
+  font-weight: bold;
+  font-size: 9px;
+  margin-left: -28px;
+  margin-top: 25px;
+  font-family: monaco;
+}
+
+.bio {
+  display: block;
+  position: relative;
+  width: 196px;
+  bottom: -14px;
+  word-wrap: break-word;
+  margin-left: -22px;
+  font-family: monaco;
+  font-size: 12px;
+  border-left: 0.1px solid #f5f5f5;
+  box-shadow: 0px 0px 0.1px #5f5c5c;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.main-section{
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0px;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

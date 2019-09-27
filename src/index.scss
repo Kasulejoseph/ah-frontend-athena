@@ -1,0 +1,64 @@
+@import "./variables.scss";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.primary-color {
+  color: $primary-color !important;
+}
+.primary-text-color {
+  color: $primary-color !important;
+}
+$primary-color: #1ba1e2;
+.primary-text-color {
+  color: #1ba1e2 !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+.primary-color-dark {
+  background-color: $primary-color-dark !important;
+  .secondary-color {
+    background-color: $secondary-color !important;
+  }
+}
+.bg-secondary {
+  background-color: $secondary-color !important;
+}
+
+.secondary-color-dark {
+  background-color: $secondary-color-dark !important;
+}
+.btn-outline-primary {
+  border: 1px solid #1ba1e2 !important;
+  background-color: transparent !important;
+  color: #1ba1e2 !important;
+}
+
+.badge-primary {
+  background-color: #1ba1e2 !important;
+}
+.btn-outline-primary {
+  border: 1px solid #1ba1e2 !important;
+  background-color: transparent !important;
+  color: #1ba1e2 !important;
+}
+
+.card {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0) !important;
+  border: 1px solid #d4c9c9 !important;
+  max-width: 75%;
+}
+
